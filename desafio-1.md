@@ -5,7 +5,6 @@ Injete um script para exibir um alerta JavaScript (`alert()`) no frame abaixo.
 
 Uma vez que o alerta for exibido, você poderá avançar para o próximo nível.
 
-
 ![[Pasted image 20240529121743.png]]
 
 O desafio começa com essa simples página de busca, onde se pode inserir caracteres tanto no campo de busca quanto na URL, para fins de teste, foi escrito a `teste` no campo de busca e o resultado foi o seguinte:

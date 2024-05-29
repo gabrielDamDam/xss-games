@@ -11,7 +11,7 @@ Uma vez que o alerta for exibido, você poderá avançar para o próximo nível.
 
 O desafio começa com essa simples página de busca, onde se pode inserir caracteres tanto no campo de busca quanto na URL, para fins de teste, foi escrito a `teste` no campo de busca e o resultado foi o seguinte:
 
-![Resultado do teste](attachments/desafio1-img1.png)
+![Resultado do teste](attachments/desafio1-attachments/desafio1-img1.png)
 
 Ao inserir a palavra "teste" na página de busca e nota-se que ela aparece na URL como parte da query , isso indica que os dados não foram tratados adequadamente. O que significa que é possível injetar códigos na própria URL a partir do ponto onde a palavra é colocada após o`` "query="``.
 

@@ -5,7 +5,7 @@ Injete um script para exibir um alerta JavaScript (`alert()`) no frame abaixo.
 
 Uma vez que o alerta for exibido, você poderá avançar para o próximo nível.
 
-<<<<<<< HEAD
+
 ---
 
 O desafio começa com essa simples página de busca, onde se pode inserir caracteres tanto no campo de busca quanto na URL, para fins de teste, foi escrito a `teste` no campo de busca e o resultado foi o seguinte:
@@ -16,21 +16,11 @@ Ao inserir a palavra "teste" na página de busca e nota-se que ela aparece na UR
 
 Para exemplificar o que foi dito, eu coloquei o elemento `<u>` na URL, este faz com que o texto fique sublinhado, o que nos da a prova de que a URL interage diretamente com a busca na página
 
-=======
-![Alt text](attachments/img1.png)
-
 O desafio começa com essa simples página de busca, onde se pode inserir caracteres tanto no campo de busca quanto na URL, para fins de teste, foi escrito a `teste` no campo de busca e o resultado foi o seguinte:
-
-![Alt text](attachments/img2.png)
 
 Ao inserir a palavra "teste" na página de busca e nota-se que ela aparece na URL como parte da query , isso indica que os dados não foram tratados adequadamente. O que significa que é possível injetar códigos na própria URL a partir do ponto onde a palavra é colocada após o`` "query="``.
 
-![Alt text](attachments/img3.png)
-
 Para exemplificar o que foi dito, eu coloquei o elemento `<u>` na URL, este faz com que o texto fique sublinhado, o que nos da a prova de que a URL interage diretamente com a busca na página
-
-![Alt text](attachments/img4.png)
->>>>>>> origin/main
 
 Sabendo dessa informação e de que o objetivo do desafio é  injetar um código de alerta na página para passar de nível, podemos testar o script abaixo com a função Alert do próprio Javascript. 
 
@@ -38,11 +28,6 @@ Sabendo dessa informação e de que o objetivo do desafio é  injetar um código
 
 Dessa forma, a página interpreta a tag `<script>` e trata tudo o que estiver dentro como um código. Quando o `alert('XSS')` é executado, faz com que uma janela apareça na tela do usuário com a mensagem "XSS" escrita. Nesse caso eu testei na URL da página para que seja melhor pra ver, mas poderia ser colocado tanto no campo de busca, quanto no código-fonte ao inspecionar a página
 
-<<<<<<< HEAD
-
-=======
-![Alt text](attachments/img5.png)
->>>>>>> origin/main
 Após clicar em Go aparece a seguinte frase na Janela e assim podemos avançar para o próximo nível
 
 

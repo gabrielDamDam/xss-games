@@ -1,14 +1,18 @@
-Descrição da Missão 
+### Descrição da Missão
+
 Cada dado fornecido pelo usuário deve ser corretamente tratado para o contexto da página em que aparecerá. Este nível mostra por que isso é importante.
 
-Objetivo da Missão 
+### Objetivo da Missão 
 
 Injete um script para abrir um alerta JavaScript na aplicação.
 
-Dicas 3/3
-``- 1. Dê uma olhada em como a função startTimer é chamada.
-``- 2. Quando os navegadores analisam atributos de tags, eles decodificam primeiro seus valores para HTML. <foo bar='z'> é o mesmo que <foo bar='&#x7a;'>
-``3. Tente inserir uma aspa simples (') e observe o console de erros.``
+### Dicas
+
+`1. Dê uma olhada em como a função startTimer é chamada.`
+
+`2. Quando os navegadores analisam atributos de tags, eles decodificam primeiro seus valores para HTML. <foo bar='z'> é o mesmo que <foo bar='&#x7a;'>`
+
+`3. Tente inserir uma aspa simples (') e observe o console de erros.`
 
 
 ## Entendendo as dicas
